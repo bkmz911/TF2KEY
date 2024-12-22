@@ -1,0 +1,192 @@
+.footer {
+    background: linear-gradient(180deg, rgba(39, 38, 39, 0) 0%, rgba(34, 34, 36, 0.76) 32.43%, rgba(31, 31, 34, 0.81) 54.41%, #181A1E 100%);
+}
+.transactions_main_block {
+    background: rgba(44, 47, 53, 0.85);
+}
+@media (max-width: 1919px) {
+    .transactions_main_block {
+        width: 1350px;
+    }
+
+}
+@media (max-width: 1794px) {
+    .transactions_all {
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .transactions_main {
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+
+}
+@media (max-width: 1499px) {
+    .transactions_main_block {
+        width: 100%;
+        height: auto;
+        height: 850px;
+    } 
+}
+@media (max-width: 1012px) {
+    .transactions_main_block_sub_sortingDate {
+        margin-left: auto;
+        margin-right: 0px;
+    }
+    .transactions_main_block {
+        height: 470px;
+    }
+    .transactions_notFound {
+        margin-top: 100px;
+    }
+    .transactions_main_block_searchInput {
+        margin-right: 5px;
+    } 
+    .transactions_main_block_filter {
+        margin-left: 5px;
+    }
+}
+@media (max-width: 847px) {
+    .transactions_main_block_filter {
+        margin-top: 20px;
+    }
+    .transactions_main_block_sub_sortingType {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .transactions_main_block_sub_sortingId {
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .transactions_main_block_sub_sortingStatus {
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .transactions_main_block_sub_sortingDetails {
+        margin-left: 20px;
+    }
+    .transactions_main_block_sub_sortingDate {
+        margin-left: 20px;
+        margin-right: auto;
+    }
+}
+@media (max-width: 857px) {
+    .transactions_main_block_searchInput {
+        margin-right: 5px;
+    } 
+    .transactions_main_block_filter {
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 585px) {
+    .mobile_sub_footer_items_exchange {
+        margin-top: 50px;
+    }
+    .transactions_main_block_searchInput {
+        width: 100%;
+    }
+    .transactions_main_block {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .transactions_notFound {
+        margin-top: 80px;
+    }
+}
+@media (max-width: 485px) {
+    .transactions_main_block_sub_sorting {
+        display: block;
+    }
+    .transactions_main_block_sub_sortingType {
+        display: block;
+    }
+    .transactions_main_block_sub_sortingId {
+        display: none;
+    }
+    .transactions_main_block_sub_sortingId_2 {
+        display: block;
+    }
+    .transactions_main_block_sub_sortingDate {
+        margin-left: 0px;
+    }
+    .transactions_main_block_sub_sortingStatus {
+        display: block;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .transactions_main_block_sub_sortingDetails {
+        display: block;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .transactions_main_block {
+        margin-top: 30px;
+    }
+    .transactions_main_basicText {
+        text-align: center;
+    }
+    .transactions_main_block_searchInput {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .search {
+        width: 16px;
+        height: 16px;
+    }
+    .transactions_main_block_searchInput::placeholder {
+        font-size: 12px;
+    }
+    .transactions_main_block_filterStatus {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .transactions_main_block_filterAll {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .transactions_main_block_filterType {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .transactions_main_block_filter_text {
+        font-size: 10px;
+    }
+    .transactions_main_block_filter_text_desktop {
+        display: none;
+    }
+    .transactions_main_block_filter_textYellow {
+        font-size: 10px;
+    }
+}
+@media (min-width: 486px) {
+    .transactions_main_block_sub_sortingId_2 {
+        display: none;
+    }
+    .transactions_main_block_filter_textYellow {
+        display: none;
+    }
+}
+@media (max-width: 460px) {
+    .sub_footer {
+        justify-content: center;
+    }
+    .contact {
+        margin-top: 40px;
+    }
+    .sub_contact {
+        justify-content: center;
+    }
+}
+@media (max-width: 456px) {
+    .transactions_main_block_filter {
+        margin-left: auto;
+    }
+    .transactions_main_block_searchInput {
+        margin-right: 0px;
+    }
+    .transactions_main_block_filter {
+        margin-right: 0px;
+    }
+}

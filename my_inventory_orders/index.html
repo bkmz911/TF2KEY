@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+
+    <!-- Везжающая менюшка на мобилках -->
+
+    <div class="dropdowm_menu">
+        <img src="img/cross_dropdown.svg" class="dropdowm_menu_cross" alt="крестик">
+        <ul class="dropdowm_menu_items">
+            <li class="dropdowm_menu_sub_itemsWhite">Обмен</li>
+            <li class="dropdowm_menu_sub_itemsLemony">Купить</li>
+            <li class="dropdowm_menu_sub_itemsWhite">Продать</li>
+            <li class="dropdowm_menu_sub_itemsWhite">FAQ</li>
+        </ul>            
+    </div>
+
+    <!-- Везжающая менюшка на мобилках -->
+
+    <header class="header">
+        <nav class="nav">
+            <div class="sub_nav">
+                <div class="sub_nav_burger">
+                    <img src="img/nav_burger.svg" class="sub_nav_burger_svg" alt="бургер меню">                    
+                </div>
+                <img src="img/fire_logo.png" class="img_logo" alt="лого">
+                <h2 class="text_logo">SkinSpace</h2>
+            </div>
+            <div class="menu_items">
+                <span class="sub_menu_items">Обмен</span>
+                <span class="sub_menu_items">Купить</span>
+                <span class="sub_menu_items">Продать</span>
+                <span class="sub_menu_items">FAQ</span>
+            </div>
+            <div class="language_balance_account">
+                <div class="language">
+                    <img src="img/russia.svg" class="language_flag" alt="флажок России">
+                    <img src="img/language_arrow.svg" class="language_arrow" alt="стрелочка">
+                </div>
+                <div class="balance">
+                    <div class="sub_balance_desktop">
+                        <span class="balance_money">₽ 150.20</span>
+                    </div>                   
+                </div>
+                <div class="account">
+                    <img src="img/man.png" class="account_man" alt="Чел с шапки">
+                    <img src="img/account_arrow.svg" class="account_arrow" alt="стрелочка">    
+                </div>
+            </div>
+        </nav>
+
+        <!-- Выпадающая менюшка шапки -->
+
+        <div class="mini_dropdown">
+            <ul class="mini_dropdown_items">
+                <li class="replenish_the_balance">
+                    Пополнить баланс
+                </li>
+                <li class="withdraw_from_the_balance">
+                    Вывести с баланса
+                </li>
+                <li class="personal_area">
+                    Личный кабинет
+                </li>
+                <li class="exit">
+                    Выйти
+                </li>
+            </ul>
+        </div>
+
+        <!-- Выпадающая менюшка шапки -->
+
+        <!-- Выпадающий выбор языков шапки -->
+
+        <div class="mini_dropdown_language">
+            <div class="mini_dropdown_languageRu">
+                <img src="img/russia.svg" class="mini_dropdown_language_miniRu" alt="ру флаг">
+                <h2 class="mini_dropdown_language_text">RU</h2>
+            </div>
+            <div class="mini_dropdown_languageEn">
+                <img src="img/english.svg" class="mini_dropdown_language_miniEn" alt="инглиш флаг">
+                <h2 class="mini_dropdown_language_text">EN</h2>
+            </div>
+        </div>
+        <!-- Выпадающий выбор языков шапки -->
+
+    </header>
+    <main>
+        <section>
+            <div class="userProfile">
+                <h1 class="userProfile_mainText">Мой инвентарь</h1>
+                <div class="userProfile_body">
+                    <div class="userProfile_body_leftBlock">
+                        <h3 class="userProfile_body_leftBlock_textFrst">Инвентарь Steam</h3>
+                        <h3 class="userProfile_body_leftBlock_textScnd">Ожидает принятия</h3>
+                        <h3 class="userProfile_body_leftBlock_textActive">Заказы на покупку</h3>
+                    </div>
+                    <div class="userProfile_rightBlock">
+                        <div class="userProfile_rightBlock_headerPart">
+                            <div class="userProfile_rightBlock_headerPart_leftBlock">
+                                <div class="userProfile_rightBlock_headerPart_leftBlock_speed">
+                                    <span class="userProfile_rightBlock_headerPart_leftBlock_textWhite">
+                                        Количество предметов:
+                                    </span>
+                                    <span class="userProfile_rightBlock_headerPart_leftBlock_textYellow">
+                                        1010101
+                                    </span>
+                                </div>
+                                <div class="userProfile_rightBlock_headerPart_leftBlock_time">
+                                    <span class="userProfile_rightBlock_headerPart_leftBlock_textWhite">
+                                        Общая стоимость:
+                                    </span>
+                                    <div class="userProfile_rightBlock_headerPart_leftBlock_subTime">
+                                        <span class="userProfile_rightBlock_headerPart_leftBlock_textYellow">
+                                            3000$
+                                        </span>
+                                        <span class="userProfile_rightBlock_headerPart_leftBlock_textGray">
+                                            (300000 P)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uerProfile_filters">
+                    <div class="uerProfile_filters_leftItems">
+                        <div class="uerProfile_filters_leftItems_gameBlock">
+                            <span class="uerProfile_filters_leftItems_gameBlock_text">CS:GO</span>
+                            <img src="img/arrow_filter.svg" class="arrow_filter" alt="стрелочка">
+                        </div>
+                        <div class="uerProfile_filters_leftItems_price">
+                            <div class="uerProfile_filters_leftItems_sub_price">
+                                <span class="uerProfile_filters_leftItems_sub_price_text">Цена</span>
+                                <img src="img/ladder.svg" class="ladder" alt="лесенка">
+                                <img src="img/arrow_filter.svg" class="arrow_filter" alt="стрелочка">
+                            </div>
+                            <div class="uerProfile_filters_leftItems_price_menu">
+                                <span class="uerProfile_filters_leftItems_price_menu_textGray">
+                                    По умолч.
+                                </span>
+                                <div class="uerProfile_filters_leftItems_price_sub_menu">
+                                    <span class="uerProfile_filters_leftItems_price_sub_menu_textActive">
+                                        Цена
+                                    </span>
+                                    <img src="img/ladder.svg" class="ladder_menu" alt="лесенка">
+                                </div>
+                                <div class="uerProfile_filters_leftItems_price_sub_menu">
+                                    <span class="uerProfile_filters_leftItems_price_menu_textGray">
+                                        Цена
+                                    </span>
+                                    <img src="img/ladder_gray.svg" class="ladder_menu" alt="лесенка">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uerProfile_filters_leftItems_time">
+                            <div class="uerProfile_filters_leftItems_sub_time">
+                                <span class="uerProfile_filters_leftItems_sub_time_text">Время создания</span>
+                                <img src="img/ladder.svg" class="ladder" alt="лесенка">
+                                <img src="img/arrow_filter.svg" class="arrow_filter" alt="стрелочка">
+                            </div>
+                            <div class="uerProfile_filters_leftItems_time_menu">
+                                <span class="uerProfile_filters_leftItems_price_menu_textGray">
+                                    По умолчанию
+                                </span>
+                                <div class="uerProfile_filters_leftItems_price_sub_menu">
+                                    <span class="uerProfile_filters_leftItems_price_sub_menu_textActive">
+                                        Время создания
+                                    </span>
+                                    <img src="img/ladder.svg" class="ladder_menu_time" alt="лесенка">
+                                </div>
+                                <div class="uerProfile_filters_leftItems_price_sub_menu">
+                                    <span class="uerProfile_filters_leftItems_price_menu_textGray">
+                                        Время создания
+                                    </span>
+                                    <img src="img/ladder_gray.svg" class="ladder_menu_time" alt="лесенка">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uerProfile_filters_inputBlock">
+                        <img src="img/search.svg" class="search_input" alt="лупа">
+                        <input type="text" class="uerProfile_filters_input" placeholder="Scavenging guttleslug">
+                    </div>
+                </div>
+            </div>
+            <div class="cards_products">
+                <div class="body_card_products">
+                    <div class="body_sub_card_products">
+                        <span class="body_sub_card_productsFrstText">item</span>
+                        <span class="body_sub_card_productsScndText">price</span>
+                        <span class="body_sub_card_productsThrdText">max price</span>
+                        <span class="body_sub_card_productsFrthText">progress</span>
+                        <span class="body_sub_card_productsLastText">time of creation</span>
+                    </div>
+                    <div class="body_sub_card_products_mobile">
+                        <div class="body_sub_card_sub_products_mobile">
+                            <span class="body_sub_card_productsFrstText_mobile">item</span>
+                            <span class="body_sub_card_productsScndText_mobile">price</span>
+                            <span class="body_sub_card_productsThrdText_mobile">progress</span>
+                        </div>
+                        <div class="body_sub_card_sub_productsRight_mobile">
+                            <span class="body_sub_card_productsThrdText_mobile">max price</span>
+                            <span class="body_sub_card_productsLastText_mobile">time of creation</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="body_cards">
+                            <div class="body_soloCard_sub_image">
+                                <div class="body_soloCard_image">
+                                    <img src="img/negev.png" class="negev_card" alt="негев для карточек">
+                                </div>
+                                <div class="body_soloCard_sub_image_name">
+                                    <span class="body_soloCard_sub_image_nameText">StatTrak™ Negev | dev_texture...</span>
+                                </div>
+                            </div>
+                            <div class="body_soloCard_price">
+                                <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                                <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                            </div>
+                            <div class="body_soloCard_maxPrice">
+                                <span class="body_soloCard_maxPrice_textWhite">
+                                    $ 10.77
+                                </span>
+                                <span class="body_soloCard_maxPrice_textGray">
+                                    (₽ 700)
+                                </span>
+                            </div>
+                            <div class="body_soloCard_progress">
+                                <span class="body_soloCard_progress_textWhite">
+                                    2<span class="body_soloCard_progress_textGray">/20</span>
+                                </span>
+                            </div>
+                            <div class="body_soloCard_time">
+                                <span class="body_soloCard_time_leftText">19.10.2022</span>
+                                <span class="body_soloCard_time_rightText">20:20</span>
+                            </div>
+                            <div class="body_cards_customButton">
+                                <a href="#" class="body_cards_customButton_text">отменить</a>
+                            </div>
+                        </div>
+                        <div class="body_cards">
+                            <div class="body_soloCard_sub_image">
+                                <div class="body_soloCard_image">
+                                    <img src="img/negev.png" class="negev_card" alt="негев для карточек">
+                                </div>
+                                <div class="body_soloCard_sub_image_name">
+                                    <span class="body_soloCard_sub_image_nameText">StatTrak™ Negev | dev_texture...</span>
+                                </div>
+                            </div>
+                            <div class="body_soloCard_price">
+                                <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                                <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                            </div>
+                            <div class="body_soloCard_maxPrice">
+                                <span class="body_soloCard_maxPrice_textWhite">
+                                    $ 10.77
+                                </span>
+                                <span class="body_soloCard_maxPrice_textGray">
+                                    (₽ 700)
+                                </span>
+                            </div>
+                            <div class="body_soloCard_progress">
+                                <span class="body_soloCard_progress_textWhite">
+                                    2<span class="body_soloCard_progress_textGray">/20</span>
+                                </span>
+                            </div>
+                            <div class="body_soloCard_time">
+                                <span class="body_soloCard_time_leftText">19.10.2022</span>
+                                <span class="body_soloCard_time_rightText">20:20</span>
+                            </div>
+                            <div class="body_cards_customButton">
+                                <a href="#" class="body_cards_customButton_text">отменить</a>
+                            </div>
+                        </div>
+                        <div class="body_cards">
+                            <div class="body_soloCard_sub_image">
+                                <div class="body_soloCard_image">
+                                    <img src="img/negev.png" class="negev_card" alt="негев для карточек">
+                                </div>
+                                <div class="body_soloCard_sub_image_name">
+                                    <span class="body_soloCard_sub_image_nameText">StatTrak™ Negev | dev_texture...</span>
+                                </div>
+                            </div>
+                            <div class="body_soloCard_price">
+                                <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                                <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                            </div>
+                            <div class="body_soloCard_maxPrice">
+                                <span class="body_soloCard_maxPrice_textWhite">
+                                    $ 10.77
+                                </span>
+                                <span class="body_soloCard_maxPrice_textGray">
+                                    (₽ 700)
+                                </span>
+                            </div>
+                            <div class="body_soloCard_progress">
+                                <span class="body_soloCard_progress_textWhite">
+                                    2<span class="body_soloCard_progress_textGray">/20</span>
+                                </span>
+                            </div>
+                            <div class="body_soloCard_time">
+                                <span class="body_soloCard_time_leftText">19.10.2022</span>
+                                <span class="body_soloCard_time_rightText">20:20</span>
+                            </div>
+                            <div class="body_cards_customButton">
+                                <a href="#" class="body_cards_customButton_text">отменить</a>
+                            </div>
+                        </div>
+                        <div class="body_cards">
+                            <div class="body_soloCard_sub_image">
+                                <div class="body_soloCard_image">
+                                    <img src="img/negev.png" class="negev_card" alt="негев для карточек">
+                                </div>
+                                <div class="body_soloCard_sub_image_name">
+                                    <span class="body_soloCard_sub_image_nameText">StatTrak™ Negev | dev_texture...</span>
+                                </div>
+                            </div>
+                            <div class="body_soloCard_price">
+                                <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                                <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                            </div>
+                            <div class="body_soloCard_maxPrice">
+                                <span class="body_soloCard_maxPrice_textWhite">
+                                    $ 10.77
+                                </span>
+                                <span class="body_soloCard_maxPrice_textGray">
+                                    (₽ 700)
+                                </span>
+                            </div>
+                            <div class="body_soloCard_progress">
+                                <span class="body_soloCard_progress_textWhite">
+                                    2<span class="body_soloCard_progress_textGray">/20</span>
+                                </span>
+                            </div>
+                            <div class="body_soloCard_time">
+                                <span class="body_soloCard_time_leftText">19.10.2022</span>
+                                <span class="body_soloCard_time_rightText">20:20</span>
+                            </div>
+                            <div class="body_cards_customButton">
+                                <a href="#" class="body_cards_customButton_text">отменить</a>
+                            </div>
+                        </div>
+                        <div class="body_cards">
+                            <div class="body_soloCard_sub_image">
+                                <div class="body_soloCard_image">
+                                    <img src="img/negev.png" class="negev_card" alt="негев для карточек">
+                                </div>
+                                <div class="body_soloCard_sub_image_name">
+                                    <span class="body_soloCard_sub_image_nameText">StatTrak™ Negev | dev_texture...</span>
+                                </div>
+                            </div>
+                            <div class="body_soloCard_price">
+                                <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                                <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                            </div>
+                            <div class="body_soloCard_maxPrice">
+                                <span class="body_soloCard_maxPrice_textWhite">
+                                    $ 10.77
+                                </span>
+                                <span class="body_soloCard_maxPrice_textGray">
+                                    (₽ 700)
+                                </span>
+                            </div>
+                            <div class="body_soloCard_progress">
+                                <span class="body_soloCard_progress_textWhite">
+                                    2<span class="body_soloCard_progress_textGray">/20</span>
+                                </span>
+                            </div>
+                            <div class="body_soloCard_time">
+                                <span class="body_soloCard_time_leftText">19.10.2022</span>
+                                <span class="body_soloCard_time_rightText">20:20</span>
+                            </div>
+                            <div class="body_cards_customButton">
+                                <a href="#" class="body_cards_customButton_text">отменить</a>
+                            </div>
+                        </div>
+                        <div class="body_cards">
+                            <div class="body_soloCard_sub_image">
+                                <div class="body_soloCard_image">
+                                    <img src="img/negev.png" class="negev_card" alt="негев для карточек">
+                                </div>
+                                <div class="body_soloCard_sub_image_name">
+                                    <span class="body_soloCard_sub_image_nameText">StatTrak™ Negev | dev_texture...</span>
+                                </div>
+                            </div>
+                            <div class="body_soloCard_price">
+                                <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                                <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                            </div>
+                            <div class="body_soloCard_maxPrice">
+                                <span class="body_soloCard_maxPrice_textWhite">
+                                    $ 10.77
+                                </span>
+                                <span class="body_soloCard_maxPrice_textGray">
+                                    (₽ 700)
+                                </span>
+                            </div>
+                            <div class="body_soloCard_progress">
+                                <span class="body_soloCard_progress_textWhite">
+                                    2<span class="body_soloCard_progress_textGray">/20</span>
+                                </span>
+                            </div>
+                            <div class="body_soloCard_time">
+                                <span class="body_soloCard_time_leftText">19.10.2022</span>
+                                <span class="body_soloCard_time_rightText">20:20</span>
+                            </div>
+                            <div class="body_cards_customButton">
+                                <a href="#" class="body_cards_customButton_text">отменить</a>
+                            </div>
+                        </div>
+                        <div class="body_cards">
+                            <div class="body_soloCard_sub_image">
+                                <div class="body_soloCard_image">
+                                    <img src="img/negev.png" class="negev_card" alt="негев для карточек">
+                                </div>
+                                <div class="body_soloCard_sub_image_name">
+                                    <span class="body_soloCard_sub_image_nameText">StatTrak™ Negev | dev_texture...</span>
+                                </div>
+                            </div>
+                            <div class="body_soloCard_price">
+                                <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                                <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                            </div>
+                            <div class="body_soloCard_maxPrice">
+                                <span class="body_soloCard_maxPrice_textWhite">
+                                    $ 10.77
+                                </span>
+                                <span class="body_soloCard_maxPrice_textGray">
+                                    (₽ 700)
+                                </span>
+                            </div>
+                            <div class="body_soloCard_progress">
+                                <span class="body_soloCard_progress_textWhite">
+                                    2<span class="body_soloCard_progress_textGray">/20</span>
+                                </span>
+                            </div>
+                            <div class="body_soloCard_time">
+                                <span class="body_soloCard_time_leftText">19.10.2022</span>
+                                <span class="body_soloCard_time_rightText">20:20</span>
+                            </div>
+                            <div class="body_cards_customButton">
+                                <a href="#" class="body_cards_customButton_text">отменить</a>
+                            </div>
+                        </div>
+                        <div class="body_cards">
+                            <div class="body_soloCard_sub_image">
+                                <div class="body_soloCard_image">
+                                    <img src="img/negev.png" class="negev_card" alt="негев для карточек">
+                                </div>
+                                <div class="body_soloCard_sub_image_name">
+                                    <span class="body_soloCard_sub_image_nameText">StatTrak™ Negev | dev_texture...</span>
+                                </div>
+                            </div>
+                            <div class="body_soloCard_price">
+                                <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                                <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                            </div>
+                            <div class="body_soloCard_maxPrice">
+                                <span class="body_soloCard_maxPrice_textWhite">
+                                    $ 10.77
+                                </span>
+                                <span class="body_soloCard_maxPrice_textGray">
+                                    (₽ 700)
+                                </span>
+                            </div>
+                            <div class="body_soloCard_progress">
+                                <span class="body_soloCard_progress_textWhite">
+                                    2<span class="body_soloCard_progress_textGray">/20</span>
+                                </span>
+                            </div>
+                            <div class="body_soloCard_time">
+                                <span class="body_soloCard_time_leftText">19.10.2022</span>
+                                <span class="body_soloCard_time_rightText">20:20</span>
+                            </div>
+                            <div class="body_cards_customButton">
+                                <a href="#" class="body_cards_customButton_text">отменить</a>
+                            </div>
+                        </div>
+                        <div class="body_cards">
+                            <div class="body_soloCard_sub_image">
+                                <div class="body_soloCard_image">
+                                    <img src="img/negev.png" class="negev_card" alt="негев для карточек">
+                                </div>
+                                <div class="body_soloCard_sub_image_name">
+                                    <span class="body_soloCard_sub_image_nameText">StatTrak™ Negev | dev_texture...</span>
+                                </div>
+                            </div>
+                            <div class="body_soloCard_price">
+                                <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                                <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                            </div>
+                            <div class="body_soloCard_maxPrice">
+                                <span class="body_soloCard_maxPrice_textWhite">
+                                    $ 10.77
+                                </span>
+                                <span class="body_soloCard_maxPrice_textGray">
+                                    (₽ 700)
+                                </span>
+                            </div>
+                            <div class="body_soloCard_progress">
+                                <span class="body_soloCard_progress_textWhite">
+                                    2<span class="body_soloCard_progress_textGray">/20</span>
+                                </span>
+                            </div>
+                            <div class="body_soloCard_time">
+                                <span class="body_soloCard_time_leftText">19.10.2022</span>
+                                <span class="body_soloCard_time_rightText">20:20</span>
+                            </div>
+                            <div class="body_cards_customButton">
+                                <a href="#" class="body_cards_customButton_text">отменить</a>
+                            </div>
+                        </div>
+                        <div class="body_cards">
+                            <div class="body_soloCard_sub_image">
+                                <div class="body_soloCard_image">
+                                    <img src="img/negev.png" class="negev_card" alt="негев для карточек">
+                                </div>
+                                <div class="body_soloCard_sub_image_name">
+                                    <span class="body_soloCard_sub_image_nameText">StatTrak™ Negev | dev_texture...</span>
+                                </div>
+                            </div>
+                            <div class="body_soloCard_price">
+                                <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                                <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                            </div>
+                            <div class="body_soloCard_maxPrice">
+                                <span class="body_soloCard_maxPrice_textWhite">
+                                    $ 10.77
+                                </span>
+                                <span class="body_soloCard_maxPrice_textGray">
+                                    (₽ 700)
+                                </span>
+                            </div>
+                            <div class="body_soloCard_progress">
+                                <span class="body_soloCard_progress_textWhite">
+                                    2<span class="body_soloCard_progress_textGray">/20</span>
+                                </span>
+                            </div>
+                            <div class="body_soloCard_time">
+                                <span class="body_soloCard_time_leftText">19.10.2022</span>
+                                <span class="body_soloCard_time_rightText">20:20</span>
+                            </div>
+                            <div class="body_cards_customButton">
+                                <a href="#" class="body_cards_customButton_text">отменить</a>
+                            </div>
+                        </div>
+                        <div class="transactions_pagination">
+                            <img src="img/pagintation_arrow_gray.svg" class="pagintaion_arrow_gray" alt="стрелочка влево">
+                            <div class="transactions_pagination_customBlock">
+                                <span class="transactions_pagination_customText">1</span>
+                            </div>
+                            <span class="transactions_pagination_text">2</span>
+                            <span class="transactions_pagination_text">3</span>
+                            <span class="transactions_pagination_text">4</span>
+                            <span class="transactions_pagination_text">5</span>
+                            <span class="transactions_pagination_text">6</span>
+                            <span class="transactions_pagination_text">...</span>
+                            <span class="transactions_pagination_text">100</span>
+                            <img src="img/pagination_arrow_white.svg" class="pagination_arrow_white" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="sub_footer">
+            <div>
+                <h2 class="sub_footer_ST_text">SkinsTrade</h2>
+            </div>
+            <div class="contact">
+                <span class="contact_span">Связаться с нами:</span>
+                <div class="sub_contact">
+                    <img src="img/contact_1.svg" class="sub_contact_svg_1" alt="тг">    
+                    <img src="img/contact_2.svg" class="sub_contact_svg_2" alt="вк">
+                </div>
+            </div>
+            <div class="mobile_sub_footer_items_exchange">
+                <div class="mobile_sub_footer_items_exchange_1">
+                    <span class="sub_footer_items_exchange_first">Обмен</span>
+                    <span class="sub_footer_items_exchange">Купить</span>
+                    <span class="sub_footer_items_exchange">Продать</span>
+                    <span class="sub_footer_items_exchange">FAQ</span>
+                </div>
+                <div class="mobile_sub_footer_items_exchange_2">
+                    <span class="sub_footer_items_exchange_first">Контакты</span>
+                    <span class="sub_footer_items_exchange">Гарантии</span>
+                    <span class="sub_footer_items_exchange">Как это работает</span>
+                    <span class="sub_footer_items_exchange">Политика конфиденциальности</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

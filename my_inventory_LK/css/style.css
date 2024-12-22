@@ -1,0 +1,421 @@
+.footer {
+    background: linear-gradient(180deg, rgba(39, 38, 39, 0) 0%, rgba(34, 34, 36, 0.76) 32.43%, rgba(31, 31, 34, 0.81) 54.41%, #181A1E 100%);
+}
+.transactions_main {
+    background: rgba(44, 47, 53, 0.85);
+}
+.transactions_sub_cardsMan {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.transactions_sub_cardsCase {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.transactions_sub_cardsCase_mobile {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.userProfile_soloItem {
+    background: rgb(80,84,90);
+    background: radial-gradient(circle, rgba(80,84,90,1) 0%, rgba(51,53,57,1) 60%);
+}
+.popUp_card_product_image {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.buy_order_card_image {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+.myInventory_sell_item_leftBlock_image {
+    background: linear-gradient(112.9deg, #6E6F70 15.9%, #ABABAC 50.49%, #757676 83.64%);
+}
+
+@media (max-width: 1809px) {
+    .transactions_main_filterBlock {
+        display: none;
+    }
+    .transactions_main_block {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .transactions_main {
+        padding-top: 40px;
+    }
+    .transactions_main_block_filter {
+        display: block;
+    }
+}
+
+@media (min-width: 1810px) {
+    .transactions_main_block_filter {
+        display: none;
+    }
+}
+
+@media (max-width: 1685px) {
+    .userProfile_body_leftBlock_textScnd {
+        margin-left: 5%;
+    }
+    .userProfile_body_leftBlock_textThrd {
+        margin-left: 5%;
+    }
+    .myInventory_sell {
+        margin-left: 34px;
+        margin-right: 34px;
+    }
+}
+
+@media (max-width: 1665px) {
+    .myInventory_sell {
+        margin-left: 34px;
+        margin-right: 34px;
+    }
+}
+
+@media (max-width: 1520px) {
+    .userProfile_body {
+        flex-wrap: wrap;
+    }
+    .userProfile_body_leftBlock {
+        border-radius: 20px;
+        width: 100%;
+        padding-bottom: 60px;
+        justify-content: center;
+    }
+    .userProfile_rightBlock {
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 20px;
+        margin-top: -2%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 1410px) {
+    .userProfile_items {
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .userProfile_soloItem {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1380px) {
+    .userProfile_body {
+        flex-wrap: wrap;
+    }
+    .userProfile_rightBlock {
+        margin-left: 0px;
+        margin-top: -18px;
+    }
+    .userProfile_body_leftBlock {
+        width: 100%;
+        justify-content: center;
+        border-radius: 20px 20px 0px 0px;
+        padding-bottom: 55px;
+    }
+    .userProfile_items {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .transactions_main_block_searchfilter_rightBlock {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .transactions_main_block_searchfilter_rightBlock {
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 976px) {
+    .basket_delete {
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .basket {
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    .myInventory_sell_item_rightBlock_inputBlockFrst {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 950px) {
+    .userProfile_body_leftBlock {
+        justify-content: start;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .userProfile_rightBlock {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media (max-width: 914px) {
+    .transactions_main_block_filter {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .userProfile_body_leftBlock_textScnd {
+        margin-left: 15px;
+    }
+    .userProfile_body_leftBlock_textThrd {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 858px) {
+    .userProfile_body_leftBlock {
+        height: 150px;
+    }
+    .userProfile_body_leftBlock_textScnd {
+        margin-right: 15px;
+    }
+    .userProfile_body_leftBlock_textThrd {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 887px) {
+    .uerProfile_filters_leftItems {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 793px) {
+    .basket_delete {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .myInventory_sell_item_rightBlock_inputBlockScnd {
+        margin-right: 20px;
+    }
+    .basket {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .transactions_main_block_filter {
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .transactions_main_block_filter_text {
+        font-size: 10px;
+    }
+    .transactions_main_block_filterGame {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: 8px;
+    }
+    .transactions_main_block_filterGame_text {
+        font-size: 10px;
+    }
+    .transactions_main {
+        padding-top: 17px;
+    }
+    .userProfile_body_leftBlock_textThrd {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 741px) {
+    .userProfile_body_leftBlock_textThrd {
+        margin-top: 15px;
+    }
+    .myInventory_sell_item_rightBlock_inputBlockScnd {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 675px) {
+    .myInventory_sell_item_rightBlock {
+        justify-content: center;
+    }
+    .myInventory_sell_item_rightBlock_inputBlockFrst {
+        margin-left: 0px;
+    }
+    .myInventory_sell_item_rightBlock_inputBlockScnd {
+        margin-left: 6px;
+    }
+}
+
+@media (max-width: 640px) {
+    .userProfile_rightBlock {
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        height: 82px;
+        border-radius: 16px;
+        margin-top: -10px;
+    }
+    .userProfile_rightBlock_headerPart_leftBlock_time {
+        margin-top: 6px;
+    }
+    .userProfile_body_leftBlock {
+        padding-bottom: 24px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 145px;
+    }
+}
+
+@media (min-width: 600px) {
+    .userProfile_item {
+        display: none;
+    }
+}
+
+@media (max-width: 599px) {
+    .userProfile_items {
+        display: none;
+    }
+}
+
+@media (max-width: 590px) {
+    .myInventory_sell_item_rightBlock_input {
+        width: 126px;
+        height: 34px;
+    }
+    .myInventory_sell_item_rightBlock {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 585px) {
+    .mobile_sub_footer_items_exchange {
+        margin-top: 50px;
+    }
+    .transactions_main_block_searchInput {
+        width: 100%;
+    }
+}
+
+@media (max-width: 564px) {
+    .userProfile_body_leftBlock_textActive {
+        margin-right: 15px;
+        padding-bottom: 5px;
+    }
+    .userProfile_body_leftBlock_textScnd {
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .uerProfile_filters_input {
+        width: 275px;
+        height: 36px;
+        padding-left: 40px;
+    }
+    .search_input {
+        width: 22px;
+        height: 22px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        left: 10px;
+    }
+    .uerProfile_filters {
+        margin-top: 30px;
+    }
+    .uerProfile_filters_leftItems_gameBlock {
+        width: 70px;
+        height: 30px;
+    }
+    .uerProfile_filters_leftItems_gameBlock_text {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .uerProfile_filters_leftItems_allBlock {
+        width: 113px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .uerProfile_filters_leftItems_allBlock_text {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .userProfile {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .userProfile_mainText {
+        padding-bottom: 20px;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 512px) {
+    .userProfile_history_rightBlock {
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 485px) {
+    .transactions_main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .transactions_main_basicText {
+        text-align: center;
+    }
+    .transactions_main_block_searchInput {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .search {
+        width: 16px;
+        height: 16px;
+    }
+    .transactions_main_block_searchInput::placeholder {
+        font-size: 12px;
+    }
+    .userProfile {
+        padding-top: 20px;
+        padding-bottom: 28px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .userProfile_item {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 460px) {
+    .sub_footer {
+        justify-content: center;
+    }
+    .contact {
+        margin-top: 40px;
+    }
+    .sub_contact {
+        justify-content: center;
+    }
+}
+@media (max-width: 456px) {
+    .transactions_main_block_filter {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 414px) {
+    .basket {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+
+    <!-- Везжающая менюшка на мобилках -->
+    <div class="dropdowm_menu">
+        <img src="img/cross_dropdown.svg" class="dropdowm_menu_cross" alt="крестик">
+        <ul class="dropdowm_menu_items">
+            <li class="dropdowm_menu_sub_itemsWhite">Обмен</li>
+            <li class="dropdowm_menu_sub_itemsLemony">Купить</li>
+            <li class="dropdowm_menu_sub_itemsWhite">Продать</li>
+            <li class="dropdowm_menu_sub_itemsWhite">FAQ</li>
+        </ul>            
+    </div>
+    <!-- Везжающая менюшка на мобилках -->
+
+    <header class="header">
+        <nav class="nav">
+            <div class="sub_nav">
+                <div class="sub_nav_burger">
+                    <img src="img/nav_burger.svg" class="sub_nav_burger_svg" alt="бургер меню">                    
+                </div>
+                <img src="img/fire_logo.png" class="img_logo" alt="лого">
+                <h2 class="text_logo">SkinSpace</h2>
+            </div>
+            <div class="menu_items">
+                <span class="sub_menu_items">Обмен</span>
+                <div class="sub_menu_items_custom">
+                    <span class="sub_menu_items_customText">Купить</span>
+                </div>
+                <span class="sub_menu_items">Продать</span>
+                <span class="sub_menu_items">FAQ</span>
+            </div>
+            <div class="language_balance_account">
+                <div class="language">
+                    <img src="img/russia.svg" class="language_flag" alt="флажок России">
+                    <img src="img/language_arrow.svg" class="language_arrow" alt="стрелочка">
+                </div>
+                <div class="balance">
+                    <div class="sub_balance_desktop">
+                        <span class="balance_money">₽ 150.20</span>
+                    </div>                   
+                </div>
+                <div class="account">
+                    <img src="img/man.png" class="account_man" alt="Чел с шапки">
+                    <img src="img/account_arrow.svg" class="account_arrow" alt="стрелочка">    
+                </div>
+            </div>
+        </nav>
+
+        <!-- Выпадающая менюшка шапки -->
+        <div class="mini_dropdown">
+            <ul>
+                <li class="replenish_the_balance">
+                    Пополнить баланс
+                </li>
+                <li class="withdraw_from_the_balance">
+                    Вывести с баланса
+                </li>
+                <li class="personal_area">
+                    Личный кабинет
+                </li>
+                <li class="exit">
+                    Выйти
+                </li>
+            </ul>
+        </div>
+        <!-- Выпадающая менюшка шапки -->
+
+        <!-- Выпадающий выбор языков шапки -->
+        <div class="mini_dropdown_language">
+            <div class="mini_dropdown_languageRu">
+                <img src="img/russia.svg" class="mini_dropdown_language_miniRu" alt="ру флаг">
+                <h2 class="mini_dropdown_language_text">RU</h2>
+            </div>
+            <div class="mini_dropdown_languageEn">
+                <img src="img/english.svg" class="mini_dropdown_language_miniEn" alt="инглиш флаг">
+                <h2 class="mini_dropdown_language_text">EN</h2>
+            </div>
+        </div>
+        <!-- Выпадающий выбор языков шапки -->
+    </header>
+
+    <!-- Pop-up: Ордер на покупку -->
+    <div class="buy_order">
+        <div class="header_buy_order">
+            <h2 class="header_buy_order_mainText">Подтвердить продажу</h2>
+            <img src="img/popUp_cross.svg" class="popUp_cross" alt="крестик">
+        </div>
+        <div class="buy_order_card">
+            <div class="buy_order_card_image_mobile">
+                <div class="buy_order_card_image">
+                    <img src="img/negev_card.png" class="buy_order_card_img" alt="негев">
+                </div>
+                <div class="buy_order_card_items_mainText_mobile">
+                    StatTrak™ Negev | 
+                    <div class="buy_order_card_items_sub_mainText_mobile">
+                        dev_texture (Field-Tested)
+                    </div>
+                </div>
+            </div>
+            <div class="buy_order_card_items">
+                <h2 class="buy_order_card_items_mainText">
+                    StatTrak™ Negev | dev_texture (Field-Tested)
+                </h2>
+                <div class="buy_order_card_sub_items">
+                    <div class="buy_order_card_item">
+                        <span class="buy_order_card_itemText">Стоимость предмета:</span>
+                        <div class="buy_order_card_sub_item">
+                            <span class="buy_order_card_sub_itemYellow">$ 20</span>
+                            <span class="buy_order_card_sub_itemGray">(₽ 1200)</span>
+                        </div>
+                    </div>
+                    <div class="buy_order_card_item">
+                        <span class="buy_order_card_itemTextEnd">Количество:</span>
+                        <div class="buy_order_card_sub_item">
+                            <input type="text" class="buy_order_card_itemt_input" placeholder="5">
+                            <span class="buy_order_card_sub_itemYellow">предметов</span>
+                            <span class="buy_order_card_sub_itemGrayEnd">(в наличии: <span class="buy_order_card_sub_itemWhite">300</span>)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buy_order_footer">
+            <div class="buy_order_sub_footer">
+                <span class="buy_order_sub_footer_textWhite">Ожидаемый доход:</span>
+                <span class="buy_order_sub_footer_textYellow">$ 100</span>
+            </div>
+            <div class="buy_order_footer_customButton">
+                <a href="#" class="buy_order_footer_button">Продать</a>
+            </div>
+        </div>
+    </div>
+    <!-- Pop-up: Ордер на покупку -->
+
+    <!-- Pop-up: Ордер на покупку успешно размещён -->
+    <div class="order_successfully_placed">
+        <img src="img/success.svg" class="success_image" alt="успешно">
+        <h2 class="order_successfully_placed_mainText">Ваш ордер на покупку
+            успешно размещен!
+        </h2>
+        <img src="img/popUp_cross.svg" class="popUp_cross_success" alt="крестик">
+    </div>
+    <!-- Pop-up: Ордер на покупку успешно размещён -->
+
+    <main>
+        <section>
+            <div class="card_path">
+                <span class="card_path_textFrst card_path_textFrst_active">Купить скины</span>
+                <img src="img/right_arrow.svg" class="right_arrow" alt="стрелочка">
+                <span class="card_path_text">CS:GO</span>
+                <img src="img/right_arrow.svg" class="right_arrow" alt="стрелочка">
+                <span class="card_path_textLast">StatTrak™ Negev | dev_texture (Field-Tested)</span>
+            </div>
+            <div class="card">
+                <div class="card_body">
+                    <div class="card_bodyNegev">
+                        <img src="img/negev.png" class="negev" alt="Негев">
+                        <img src="img/star.svg" class="star_mobile" alt="звезда">
+                    </div>
+                    <div class="card_body_mainInfo">
+                        <h2 class="card_body_mainInfoText">StatTrak™ Negev | dev_texture (Field-Tested)</h2>
+                        <div class="card_body_sub_mainInfo">
+                            <div class="card_body_sub_mainInfo_leftText">
+                                <span class="card_body_sub_mainInfo_leftTextBasic">Quality:</span>
+                                <span class="card_body_sub_mainInfo_leftTextBasic">Category:</span>
+                                <span class="card_body_sub_mainInfo_leftTextBasic">Type:</span>
+                            </div>
+                            <div class="card_body_sub_mainInfo_rightText">
+                                <span class="card_body_sub_mainInfo_rightTextYellow">Restricted</span>
+                                <span class="card_body_sub_mainInfo_rightTextYellow">StatTrak™</span>
+                                <span class="card_body_sub_mainInfo_rightTextYellow">Machineguns</span>
+                            </div>
+                        </div>
+                        <div class="card_body_sub_mainInfo_footer">
+                            <span class="card_body_sub_mainInfo_footer_priceText">Price:</span>
+                            <h3 class="card_body_sub_mainInfo_footer_dollarText">$ 0.52</h3>
+                            <span class="card_body_sub_mainInfo_footer_roubleText">(₽ 20)</span>
+                            <div class="card_body_sub_mainInfo_footerLink">
+                                <a href="#" class="card_body_sub_mainInfo_footer_link">Перейти на Steam</a>
+                                <img src="img/right_arrow.svg" class="right_arrowCard" alt="стрелочка">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_body_mainInfo_activityBlock">
+                        <div class="card_body_mainInfo_activityBlock_favorite">
+                            <h3 class="card_body_mainInfo_activityBlock_mainText">Добавить в избранное</h3>
+                            <img src="img/star.svg" class="star" alt="звезда">
+                        </div>
+                        <div class="card_body_mainInfo_activityBlock_buttons">
+                            <div class="card_body_mainInfo_activityBlock_sellButton">
+                                <a href="#" class="card_body_mainInfo_activityBlock_sellButton_link">продать</a>
+                            </div>
+                            <div class="card_body_mainInfo_activityBlock_placeButton">
+                                <a href="#" class="card_body_mainInfo_activityBlock_placeButton_link">разместить ордер</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_bodyFooter">
+                    <div class="card_bodyFooter_item">
+                        <span class="card_bodyFooter_item_text">Factory New $ 8.14</span>
+                    </div>
+                    <div class="card_bodyFooter_item">
+                        <span class="card_bodyFooter_item_text">Minimal Wear $ 7.33</span>
+                    </div>
+                    <div class="card_bodyFooter_item">
+                        <span class="card_bodyFooter_item_text">Field-Tested $ 3</span>
+                    </div>
+                    <div class="card_bodyFooter_item">
+                        <span class="card_bodyFooter_item_text">Factory New $ 8.14</span>
+                    </div>
+                    <div class="card_bodyFooter_item card_bodyFooter_itemActive">
+                        <span class="card_bodyFooter_item_text card_bodyFooter_item_textActive">Minimal Wear $ 7.33</span>
+                    </div>
+                    <div class="card_bodyFooter_item card_bodyFooter_itemHover">
+                        <span class="card_bodyFooter_item_text card_bodyFooter_item_textHover">Factory New $ 8.14</span>
+                    </div>
+                    <div class="card_bodyFooter_itemLastMobile">
+                        <span class="card_bodyFooter_item_textLastMobile">Factory New $ 8.14</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card_products">
+                <div class="header_card_products">
+                    <div class="header_card_products_leftItems">
+                        <span class="header_card_products_leftItems_text">Продажа (1000+)</span>
+                        <span class="header_card_products_leftItems_textActive">Ордера на покупку (1000+)</span>
+                        <div class="header_card_products_leftItems_graph">
+                            <span class="header_card_products_leftItems_graph_text">График цены</span>
+                            <img src="img/graph.svg" class="graph" alt="график">
+                        </div>
+                    </div>
+                </div>
+                <div class="body_card_products">
+                    <div class="body_sub_card_products">
+                        <span class="body_sub_card_productsFrstText">item</span>
+                        <span class="body_sub_card_productsScndText">buyers</span>
+                        <span class="body_sub_card_productsThrdText">number</span>
+                        <span class="body_sub_card_productsLastText">price</span>
+                    </div>
+                    <div class="body_sub_card_products_mobile">
+                        <div class="body_sub_card_sub_products_mobile">
+                            <span class="body_sub_card_productsFrstText_mobile">item</span>
+                            <span class="body_sub_card_productsScndText_mobile">buyers</span>
+                        </div>
+                        <div class="body_sub_card_sub_productsRight_mobile">
+                            <span class="body_sub_card_productsThrdText_mobile">number</span>
+                            <span class="body_sub_card_productsLastText_mobile">price</span>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_sub_image">
+                            <div class="body_soloCard_image">
+                                <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                            </div>
+                            <div class="body_soloCard_sub_image_text_number">
+                                <span class="body_soloCard_sub_image_text">StatTrak™ Negev | dev_texture...</span>
+                                <span class="body_soloCard_sub_image_number">20</span>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <div class="body_soloCard_number">
+                            <span class="body_soloCard_number_text">20</span>
+                        </div>
+                        <div class="body_soloCard_price">
+                            <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">продать</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_sub_image">
+                            <div class="body_soloCard_image">
+                                <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                            </div>
+                            <div class="body_soloCard_sub_image_text_number">
+                                <span class="body_soloCard_sub_image_text">StatTrak™ Negev | dev_texture...</span>
+                                <span class="body_soloCard_sub_image_number">20</span>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <div class="body_soloCard_number">
+                            <span class="body_soloCard_number_text">20</span>
+                        </div>
+                        <div class="body_soloCard_price">
+                            <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">продать</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_sub_image">
+                            <div class="body_soloCard_image">
+                                <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                            </div>
+                            <div class="body_soloCard_sub_image_text_number">
+                                <span class="body_soloCard_sub_image_text">StatTrak™ Negev | dev_texture...</span>
+                                <span class="body_soloCard_sub_image_number">20</span>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <div class="body_soloCard_number">
+                            <span class="body_soloCard_number_text">20</span>
+                        </div>
+                        <div class="body_soloCard_price">
+                            <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">продать</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_sub_image">
+                            <div class="body_soloCard_image">
+                                <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                            </div>
+                            <div class="body_soloCard_sub_image_text_number">
+                                <span class="body_soloCard_sub_image_text">StatTrak™ Negev | dev_texture...</span>
+                                <span class="body_soloCard_sub_image_number">20</span>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <div class="body_soloCard_number">
+                            <span class="body_soloCard_number_text">20</span>
+                        </div>
+                        <div class="body_soloCard_price">
+                            <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">продать</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_sub_image">
+                            <div class="body_soloCard_image">
+                                <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                            </div>
+                            <div class="body_soloCard_sub_image_text_number">
+                                <span class="body_soloCard_sub_image_text">StatTrak™ Negev | dev_texture...</span>
+                                <span class="body_soloCard_sub_image_number">20</span>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <div class="body_soloCard_number">
+                            <span class="body_soloCard_number_text">20</span>
+                        </div>
+                        <div class="body_soloCard_price">
+                            <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">продать</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_sub_image">
+                            <div class="body_soloCard_image">
+                                <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                            </div>
+                            <div class="body_soloCard_sub_image_text_number">
+                                <span class="body_soloCard_sub_image_text">StatTrak™ Negev | dev_texture...</span>
+                                <span class="body_soloCard_sub_image_number">20</span>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <div class="body_soloCard_number">
+                            <span class="body_soloCard_number_text">20</span>
+                        </div>
+                        <div class="body_soloCard_price">
+                            <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">продать</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_sub_image">
+                            <div class="body_soloCard_image">
+                                <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                            </div>
+                            <div class="body_soloCard_sub_image_text_number">
+                                <span class="body_soloCard_sub_image_text">StatTrak™ Negev | dev_texture...</span>
+                                <span class="body_soloCard_sub_image_number">20</span>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <div class="body_soloCard_number">
+                            <span class="body_soloCard_number_text">20</span>
+                        </div>
+                        <div class="body_soloCard_price">
+                            <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">продать</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_sub_image">
+                            <div class="body_soloCard_image">
+                                <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                            </div>
+                            <div class="body_soloCard_sub_image_text_number">
+                                <span class="body_soloCard_sub_image_text">StatTrak™ Negev | dev_texture...</span>
+                                <span class="body_soloCard_sub_image_number">20</span>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <div class="body_soloCard_number">
+                            <span class="body_soloCard_number_text">20</span>
+                        </div>
+                        <div class="body_soloCard_price">
+                            <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">продать</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_sub_image">
+                            <div class="body_soloCard_image">
+                                <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                            </div>
+                            <div class="body_soloCard_sub_image_text_number">
+                                <span class="body_soloCard_sub_image_text">StatTrak™ Negev | dev_texture...</span>
+                                <span class="body_soloCard_sub_image_number">20</span>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <div class="body_soloCard_number">
+                            <span class="body_soloCard_number_text">20</span>
+                        </div>
+                        <div class="body_soloCard_price">
+                            <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">продать</a>
+                        </div>
+                    </div>
+                    <div class="body_cards">
+                        <div class="body_soloCard_sub_image">
+                            <div class="body_soloCard_image">
+                                <img src="img/negev_card.png" class="negev_card" alt="негев для карточек">
+                            </div>
+                            <div class="body_soloCard_sub_image_text_number">
+                                <span class="body_soloCard_sub_image_text">StatTrak™ Negev | dev_texture...</span>
+                                <span class="body_soloCard_sub_image_number">20</span>
+                            </div>
+                        </div>
+                        <div class="body_soloCard_profile">
+                            <img src="img/obivan_kenobi.png" class="obivan_kenobi" alt="">
+                            <span class="body_soloCard_profile_text">Вася Пупкин</span>
+                        </div>
+                        <div class="body_soloCard_number">
+                            <span class="body_soloCard_number_text">20</span>
+                        </div>
+                        <div class="body_soloCard_price">
+                            <h3 class="body_soloCard_price_dollars">$ 0.52</h3>
+                            <span class="body_soloCard_price_roubles">(₽ 20)</span>
+                        </div>
+                        <div class="body_soloCard_customButton">
+                            <a href="#" class="body_soloCard_customButton_text">продать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="transactions_pagination">
+                    <img src="img/pagintation_arrow_gray.svg" class="pagintaion_arrow_gray" alt="стрелочка влево">
+                    <div class="transactions_pagination_customBlock">
+                        <span class="transactions_pagination_customText">1</span>
+                    </div>
+                    <span class="transactions_pagination_text">2</span>
+                    <span class="transactions_pagination_text">3</span>
+                    <span class="transactions_pagination_text">4</span>
+                    <span class="transactions_pagination_text">5</span>
+                    <span class="transactions_pagination_text">6</span>
+                    <span class="transactions_pagination_text">...</span>
+                    <span class="transactions_pagination_text">100</span>
+                    <img src="img/pagination_arrow_white.svg" class="pagination_arrow_white" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="sub_footer">
+            <div>
+                <h2 class="sub_footer_ST_text">SkinsTrade</h2>
+            </div>
+            <div class="contact">
+                <span class="contact_span">Связаться с нами:</span>
+                <div class="sub_contact">
+                    <img src="img/contact_1.svg" class="sub_contact_svg_1" alt="тг">    
+                    <img src="img/contact_2.svg" class="sub_contact_svg_2" alt="вк">
+                </div>
+            </div>
+            <div class="mobile_sub_footer_items_exchange">
+                <div class="mobile_sub_footer_items_exchange_1">
+                    <span class="sub_footer_items_exchange_first">Обмен</span>
+                    <span class="sub_footer_items_exchange">Купить</span>
+                    <span class="sub_footer_items_exchange">Продать</span>
+                    <span class="sub_footer_items_exchange">FAQ</span>
+                </div>
+                <div class="mobile_sub_footer_items_exchange_2">
+                    <span class="sub_footer_items_exchange_first">Контакты</span>
+                    <span class="sub_footer_items_exchange">Гарантии</span>
+                    <span class="sub_footer_items_exchange">Как это работает</span>
+                    <span class="sub_footer_items_exchange">Политика конфиденциальности</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

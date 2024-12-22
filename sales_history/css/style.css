@@ -1,0 +1,199 @@
+.footer {
+    background: linear-gradient(180deg, rgba(39, 38, 39, 0) 0%, rgba(34, 34, 36, 0.76) 32.43%, rgba(31, 31, 34, 0.81) 54.41%, #181A1E 100%);
+}
+.body_soloCard_image {
+    background: linear-gradient(135deg, #6E6F70 15.90%, #ABABAC 50.49%, #757676 83.64%);
+}
+
+@media (max-width: 1825px) {
+    .body_soloCard_type {
+        margin-left: 14%;
+    }
+}
+
+@media (max-width: 1735px) {
+    .body_soloCard_type {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 1650px) {
+    .body_soloCard_type {
+        margin-left: 16%;
+    }
+}
+
+@media (max-width: 1627px) {
+    .body_soloCard_type {
+        margin-left: 17%;
+        margin-right: 16%;
+    }
+    .body_soloCard_time {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .solo_cards {
+        height: 1472px;
+    }
+}
+
+@media (max-width: 1570px) {
+    .body_sub_card_productsLastText {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 1535px) {
+    .body_soloCard_type {
+        margin-left: 19%;
+    }
+}
+
+@media (min-width: 1501px) {
+    .card_path_mobile {
+        display: none;
+    }
+    .card_path {
+        display: flex;
+    }
+}
+
+@media (max-width: 1500px) {
+    .body_soloCard_type {
+        margin-left: 17%;
+    }
+    .card_path {
+        display: none;
+    }
+    .cards_products {
+        margin-left: 34px;
+        margin-right: 34px;
+        border: none;
+    }
+    .body_card_products {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .solo_cards {
+        padding-right: 5px;
+    }
+    .body_card_products {
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 1345px) {
+    .body_soloCard_type {
+        margin-left: 14%;
+    }
+}
+
+@media (max-width: 1315px) {
+    .body_soloCard_price {
+        margin-left: 5%;
+    }
+    .body_soloCard_type {
+        margin-left: 16%;
+    }
+}
+
+@media (min-width: 1251px) {
+    .body_sub_card_products {
+        display: flex;
+    }
+    .body_sub_card_products_mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 1250px) {
+    .body_soloCard_price {
+        margin-right: 20%;
+    }
+    .body_soloCard_type {
+        margin-left: 0%;
+        margin-top: 18px;
+    }
+    .body_soloCard_time {
+        margin-left: auto;
+    }
+    .body_sub_card_products {
+        display: none;
+    }
+}
+
+@media (max-width: 973px) {
+    .body_soloCard_price {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .body_soloCard_sub_image_name {
+        margin-right: 45px;
+    }
+    .solo_cards {
+        height: 1504px;
+    }
+}
+
+@media (max-width: 767px) {
+    .body_soloCard_price {
+        margin-top: 0px;
+    }
+    .solo_cards {
+        height: 1530px;
+    }
+}
+
+@media (max-width: 685px) {
+    .body_soloCard_price {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 639px) {
+    .mobile_sub_footer_items_exchange {
+        margin-top: 50px;
+    }
+    .solo_cards {
+        height: 1540px;
+    }
+}
+
+@media (max-width: 574px) {
+    .body_soloCard_price {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .body_soloCard_sub_image_name {
+        margin-right: 0px;
+    }
+    .body_cards {
+        height: 132px;
+    }
+    .solo_cards {
+        height: 1420px;
+    }
+}
+
+@media (max-width: 460px) {
+    .sub_footer {
+        justify-content: center;
+    }
+    .contact {
+        margin-top: 40px;
+    }
+    .sub_contact {
+        justify-content: center;
+    }
+    .body_soloCard_sub_image_nameText {
+        display: block;
+        text-overflow: ellipsis;
+        max-width: 154px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
